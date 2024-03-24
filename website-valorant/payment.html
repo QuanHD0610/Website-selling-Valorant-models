@@ -90,127 +90,89 @@
       </div>
     </header>
     <!-- end header -->
-
-    <!------------------ cart ---------------------->
-    <section class="cart">
-      <div class="container">
-        <div class="cart-top-wap">
-          <div class="cart-top">
-            <div class="cart-top-cart cart-top-item">
-              <i class="fas fa-shopping-cart "></i>
+    <!-- ---------Delivery--------- -->
+    <section class="payment">
+        <div class="container">
+            <div class="payment-top-wap">
+                <div class="payment-top">
+                    <div class="payment-top-cart payment-top-item">
+                        <i class="fas fa-shopping-cart "></i>
+                      </div>
+                      <div class="payment-top-adress payment-top-item">
+                        <i class="fas fa-map-marker-alt "></i>
+                      </div>
+                      <div class="payment-top-payment payment-top-item">
+                        <i class="fas fa-money-check-alt "></i>
+                      </div>
+                </div>
             </div>
-            <div class="cart-top-adress cart-top-item">
-              <i class="fas fa-map-marker-alt "></i>
+        <div class="container">
+            <div class="payment-content row">
+                <div class="payment-content-left">
+                    <div class="payment-content-left-method-delivery">
+                        <p style="font-weight: bold;">Phương thức giao hàng</p>
+                        <div class="payment-content-left-method-delivery-item">
+                            <input type="radio" checked> <label for="">Giao hàng chuyển phát nhanh</label>
+                            <p style="font-size: 10px;">Chuyển tới địa chỉ khách hàng</p>
+                        </div>
+                    </div>
+                    <div class="payment-content-left-method-payment">
+                        <p style="font-weight: bold;">Phương thức thanh toán</p>
+                        <p>Mọi giao dịch đều được bảo mật và mã hóa .Thông tin thẻ tín dụng sẽ không bao giờ được lưu lại.</p>
+                        <div class="payment-content-left-method-payment-item">
+                            <input type="radio" name="method-payment">
+                            <label for="">Thanh toán bằng thẻ tín dung (OnePay) </label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img src="images/visa.png" alt="">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input type="radio" name="method-payment">
+                            <label for="">Thanh toán bằng thẻ ATM (OnePay) </label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img src="images/visa.png" alt="">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input type="radio" name="method-payment">
+                            <label for="">Thanh toán bằng momo </label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img src="images/momo.png" alt="" height="35px">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input type="radio" name="method-payment" checked>
+                            <label for="">Thanh toán bằng tiền mặt </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Nhập mã giảm giá">
+                        <button><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Nhập mã cộng tác viên">
+                        <button><i class="fa-solid fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-mnv">
+                        <select name="id">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">Chọn mã nhân viên thân thiết 1</option>
+                            <option value="">Chọn mã nhân viên thân thiết 2</option>
+                            <option value="">Chọn mã nhân viên thân thiết 3</option>
+                            <option value="">Chọn mã nhân viên thân thiết 4</option>
+                        </select>
+                    </div>
+                </div>
             </div>
-            <div class="cart-top-pay cart-top-item">
-              <i class="fas fa-money-check-alt c"></i>
+            <div class="payment-content-right-payment">
+                <button><p>Tiếp tục thanh toán</p></button>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="cart-content row">
-          <div class="cart-content-left">
-            <table>
-              <tr>
-                <th>Sản phẩm</th>
-                <th>Tên sản phẩm</th>
-                <th>Màu</th>
-                <th>Size</th>
-                <th>SL</th>
-                <th>Thành tiền</th>
-                <th>Xóa</th>
-              </tr>
-              <tr>
-                <td><img src="images/anh1.jpg" alt="" height="200px" /></td>
-                <td><p>Áo dạ hội MS 23792</p></td>
-                <td><p>Đỏ</p></td>
-                <td><p>L</p></td>
-                <td><input type="number" value="1" min="1" /></td>
-                <td>
-                  <p>2.000.00 <sup>đ</sup></p>
-                </td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td><img src="images/anh1.jpg" alt="" height="200px" /></td>
-                <td><p>Áo dạ hội MS 23792</p></td>
-                <td><p>Đỏ</p></td>
-                <td><p>L</p></td>
-                <td><input type="number" value="1" min="1" /></td>
-                <td>
-                  <p>2.000.00 <sup>đ</sup></p>
-                </td>
-                <td>X</td>
-              </tr>
-              <tr>
-                <td><img src="images/anh1.jpg" alt="" height="200px" /></td>
-                <td><p>Áo dạ hội MS 23792</p></td>
-                <td><p>Đỏ</p></td>
-                <td><p>L</p></td>
-                <td><input type="number" value="1" min="1" /></td>
-                <td>
-                  <p>2.000.00 <sup>đ</sup></p>
-                </td>
-                <td>X</td>
-              </tr>
-            </table>
-          </div>
-          <div class="cart-content-right">
-            <table>
-              <tr>
-                <th colspan="2">Tổng tiền giỏ hàng</th>
-              </tr>
-              <tr>
-                <td>Tổng sản phẩm:</td>
-                <td>2</td>
-              </tr>
-              <tr>
-                <td>Tổng tiền hàng:</td>
-                <td>
-                  <p>2.980.000 <sup>đ</sup></p>
-                </td>
-              </tr>
-              <tr>
-                <td>Thành tiền:</td>
-                <td>
-                  <p>1.980.000 <sup>đ</sup></p>
-                </td>
-              </tr>
-              <tr>
-                <td>Tạm tính</td>
-                <td>
-                  <p style="color: black; font-weight: bold">
-                    2.980.000 <sup>đ</sup>
-                  </p>
-                </td>
-              </tr>
-            </table>
-            <div class="cart-content-right-text">
-              <p>
-                Bạn được miễn phí ship khi tổng giá trị hàng trên 1.000.000 VNĐ.
-              </p>
-              <p style="color: red; font-weight: bold">
-                Mua thêm <span style="font-size: 18px"> 200.000VNĐ </span> được
-                miễn phí ship
-              </p>
-            </div>
-            <div class="cart-content-right-button">
-              <button>Tiếp tục mua sắm</button>
-              <button>Thanh toán</button>
-            </div>
-            <div class="cart-content-right-dangnhap">
-              <p>Tài khoản HQ</p>
-              <p>
-                Hãy <a href="">Đăng nhập</a> tài khoản của bạn để tích điểm
-                thành viên
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
     </section>
-
+    
      <!-- -------------------------footer---------- -->
      <footer>
       <div class="container">

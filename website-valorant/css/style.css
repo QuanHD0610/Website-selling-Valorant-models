@@ -245,6 +245,117 @@ header.sticky{
     text-align: center;
 }
 
+/* ---------------------footer new--------------- */
+footer{
+    margin-top: 100px;
+    border-top: 2px solid #000;
+}
+.main-footer{
+    margin:20px 10px;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    justify-content: space-between;
+    text-align: left;
+    color: #333;
+}
+.footer-left-top{
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.footer-left-top  img{
+    height: 30px;
+    margin: 0 10px;
+}
+.footer-left-main p{
+    padding: 10px ;
+    font-size: 13px;
+    font-family: var(--main-text-font);
+    color: #333;
+}
+.footer-left-bottom{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+.footer-left-bottom i{
+    font-size: 30px;
+    height: 40px;
+    padding: 0 10px 0 0;
+
+}
+.footer-left-bottom i::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 80%;
+    background: #ccc;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer-left-bottom-hotline button{
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 0 10px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.footer-main{
+    justify-content: space-between;
+    font-size: 13px;
+    font-family: var(--main-text-font);
+    color: #333;
+}
+.footer-main-content{
+    padding: 0 15px;
+}
+.footer-main-content h2{
+    padding: 5px 3px 15px;
+    font-size: 20px;
+}
+.footer-main-content li{
+    padding: 12px 0;
+}
+.footer-right{
+    text-align: center;
+    align-items: center;
+
+}
+.footer-right p{
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
+.footer-right input{
+    margin-top: 50px;
+    border:none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    width: 400px;
+    outline: none;
+}
+.footer-botom{
+    text-align: center;
+    font-size: 12px;
+    border-top:1px  solid #333 ;
+    margin: 20px 0;
+}
+.footer-botom p{
+    padding: 20px 0;
+}
 /* -----------category--------------*/
 .category {
     padding: 100px 0;
@@ -761,4 +872,268 @@ header.sticky{
     font-size: 12px;
     color: #333;
     font-weight: bold;
+}
+
+/* -----------------------delivery------------------- */
+.delivery{
+    padding: 100px 0;
+}
+.delivery-top-wap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.delivery-top{
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.delivery-top-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.delivery-top-item i{
+    color: #dddddd;
+}
+.delivery-top-adress{
+    border: 1px solid blue;
+}
+.delivery-top-adress i{
+    color: blue;
+}
+.delivery-content-left{
+    width:  60%;
+    padding-right: 12px;
+}
+.delivery-content-left>p{
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.delivery-content-left label{
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom:6px ;
+    display: block;
+}
+.delivery-content-left-dangnhap{
+    margin-top: 12px;
+}
+.delivery-content-left-dangnhap i{
+    font-size: 12px;
+    margin-right: 12px;
+}
+.delivery-content-left-khachle{
+    margin: 12px 0;
+}
+.delivery-content-left-khachle input{
+    margin-right: 12px;
+}
+.delivery-content-left-dangky{
+    margin-bottom: 30px;
+}
+.delivery-content-left-dangky input{
+    margin-right: 12px;
+}
+.delivery-content-right{
+    width: 40%;
+}
+.delivery-content-left-input-top {
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.delivery-content-left-input-top-item{
+    width: calc(48%);
+}
+.delivery-content-left-input-top-item input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dddddd;
+    padding-left: 6px;
+}
+.delivery-content-left-input-bottom input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dddddd;
+    padding-left: 6px;
+}
+.delivery-content-left-button p,a{
+    display: inline-block;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+}
+.delivery-content-left-button span{
+    margin-right: 12px;
+}
+.delivery-content-left-button {
+    justify-content: space-between;
+}
+.delivery-content-left-button button{
+    height: 35px;
+    border: 2px solid black;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.delivery-content-left-button button:hover{
+    background-color: #000;
+    color: #fff;
+
+}
+.delivery-content-right{
+    padding-left: 50px;
+    border-left: 2px solid #333;
+    height: auto;
+}
+.delivery-content-right table{
+    width: 100%;
+    font-family: var(--main-text-font);
+    font-size: 12px;
+    text-align: center;
+}
+.delivery-content-right table tr th:first-child{
+    text-align: left;
+}
+.delivery-content-right table tr th{
+    padding-bottom:12px ;
+    border-bottom: 2px solid #dddddd;
+}
+.delivery-content-right table tr th:last-child{
+    text-align: right;
+}
+.delivery-content-right table tr td{
+    padding: 6px 0;
+
+}
+.delivery-content-right table tr:nth-child(4){
+    border-top: 2px solid #dddddd;
+}
+.delivery-content-right table tr td:last-child{
+    text-align: right;
+}
+.delivery-content-right table tr td:first-child{
+    text-align: left;
+}
+
+/* -------------------------payment----------------- */
+.payment{
+    padding: 100px 0;
+
+}
+
+.payment-top-wap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment-top{
+    height: 2px;
+    width: 70%;
+    background-color: #dddddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0 100px;
+}
+.payment-top-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.payment-top-item i{
+    color: #dddddd;
+}
+.payment-top-payment{
+    border: 1px solid blue;
+}
+.payment-top-payment i{
+    color: blue;
+}
+.payment-content-left{
+    width: 60%;
+}
+.payment-content-right{
+    width: 40%;
+    border-left: 2px solid #ddd;
+    padding-left: 12px;
+
+}
+.payment-content-left p,label{
+    font-size: 12px;
+    font-family: var(--main-text-font);
+}
+.payment-content-right-button{
+    display: flex;
+    padding: 12px 0;
+    border-bottom: 1px dashed #dddddd;
+}
+.payment-content-right-button input{
+    height: 30px;
+    width: 200px;
+    margin-right: 100px;
+    padding-left: 12px;
+}
+.payment-content-right-button button{
+    height: 30px;
+    width: 100px;
+    background: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.payment-content-right-mnv{
+    margin-top: 20px;
+}
+.payment-content-right-mnv select{
+    height: 30px;
+    width: 100%;
+    color: #544848;
+    padding-left: 12px;
+}
+.payment-content-right-payment{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.payment-content-right-payment button{
+    height: 35px;
+    padding: 0 20px;
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid black;
+}
+.payment-content-right-payment button:hover{
+    background-color: black;
+    color: white;
+}
+.payment-content-left-method-delivery{
+    margin-bottom: 10px;
+}
+.payment-content-left-method-delivery p{
+    padding: 10px 5px;
+    font-size: 14px;
+}
+.payment-content-left-method-payment{
+    margin-bottom: 10px;
+
+}
+.payment-content-left-method-payment p{
+    padding: 10px 5px;
+    font-size: 14px;
 }
